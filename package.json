@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-practice",
+  "version": "1.0.0",
+  "description": "Belajar membuat aplikasi To-Do List menggunakan NodeJS dan Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirei-open/nodejs-practice.git"
+  },
+  "author": "KireiDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kirei-open/nodejs-practice/issues"
+  },
+  "homepage": "https://github.com/kirei-open/nodejs-practice#readme"
+}
