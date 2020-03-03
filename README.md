@@ -25,25 +25,27 @@ npm install ejs --save
 
 ## Milestones
 
-[ ] **Install NPM & Nodejs**
-[ ] **Install Express**
-[ ] **Install ejs**
-[ ] **Setup Initial express app**
+- **Initial Setup**
 
-- **Setup API Routes**:
+* [ ] Install NPM & Nodejs
+* [ ] Install Express
+* [ ] Install ejs
+* [ ] Setup Initial express app
 
-* [ ] GET: Get All Activity (/api/todos)
-* [ ] GET: Get One Activity (/api/todo/:id)
-* [ ] POST: Create Activity (/api/todos)
-* [ ] PUT: Update Activity (/api/todo/:id)
-* [ ] DELETE: DELETE Activity (/api/todo/:id)
+* **Setup API Routes**:
 
-- **Setup View Routes**:
+- [ ] GET: Get All Activity (/api/todos)
+- [ ] GET: Get One Activity (/api/todo/:id)
+- [ ] POST: Create Activity (/api/todos)
+- [ ] PUT: Update Activity (/api/todo/:id)
+- [ ] DELETE: DELETE Activity (/api/todo/:id)
 
-* [ ] View All Activity (/todos)
-* [ ] Get an Activity Detail (/todo/:id)
-* [ ] Create an Activity (/todo/new)
-* [ ] Edit an Activity (/todo/update/:id)
+* **Setup View Routes**:
+
+- [ ] View All Activity (/todos)
+- [ ] Get an Activity Detail (/todo/:id)
+- [ ] Create an Activity (/todo/new)
+- [ ] Edit an Activity (/todo/update/:id)
 
 ## Notes
 
