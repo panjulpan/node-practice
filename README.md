@@ -56,3 +56,7 @@ npm install ejs --save
 ## Notes
 
 Setiap pembacaan/perubahan/penambahan activity, harus melihat isi file _data.json_ menggunakan module fs
+
+
+## Prototype
+View the prototype here on [Figma](https://www.figma.com/proto/faV6p1i4bpFxo0itRb5jE1/To-Do-LIst?node-id=1%3A2&scaling=contain)
