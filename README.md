@@ -2,9 +2,15 @@
 
 Learn to build basic NodeJS + Express App
 
-## Usage
+## Description
 
 Belajar membuat aplikasi To-Do List dengan menggunakan Nodejs + Express dan module fs (filesystem)
+
+## Usage
+Clone this repository
+```
+git clone https://github.com/kirei-open/nodejs-practice.git
+```
 
 ## Step-by-step
 
