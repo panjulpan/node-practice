@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List App</title>
+</head>
+<body>
+    <h1>To Do List App</h1>
+    <ul>
+        <ul>
+            <% for(var i=0; i<activityList.length; i++) { %>
+                <li><%= activityList[i].title %></li>
+            <% } %>
+        </ul>
+    </ul>
+    <form action="/api/todo" method="post">
+        <input type="text" name="newActivity">
+        <button type="submit">Add</button>
+    </form>
+</body>
+</html>
