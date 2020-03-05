@@ -8,7 +8,8 @@ app.set('view engine', 'ejs');
 // Get All Activities
 app.get("/api/todo", (req, res) => {
     let data = JSON.parse(fs.readFileSync('data.json', 'utf8'));
-    res.render("todo", {activityList: data});
+    // res.render("todo", {activityList: data});
+    console.log(data);
 });
 
 // Get Activities by ID
