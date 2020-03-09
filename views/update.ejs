@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List App</title>
+</head>
+<body>
+    <h1>Update</h1>
+    <form action="/todo/update/<%= activityList.id %>" method="POST">
+        <label for="title"><%= activityList.title %> ------></label>
+        <input type="text" value="<%= activityList.title %>" name="title">
+        <button type="submit">Edit</button>
+    </form>
+    <a href="/todos">Home</a>
+</body>
+</html>
