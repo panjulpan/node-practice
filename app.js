@@ -11,7 +11,7 @@ const saltRounds = 10;
 const conn = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'bebas123',
+    password: '',
     database: 'test'
 });
 // let data = JSON.parse(fs.readFileSync('data.json', 'utf8'));
