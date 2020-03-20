@@ -9,17 +9,17 @@
   <div class="box border">
     <table class="table table-borderless">
       <thead>
-        <th><h3>To Do List App</h3></th>
-        <th><a href="/todo/delete" class="btn btn-danger">-</a></th>
-        <th><a href="/todo/new" class="btn btn-success">+</a></th>
-        <th><a href="/profile" class="btn btn-dark">Profile</a></th>
+        <th><h1>User List</h1></th>
+        <th><a href="/admin/delete" class="btn btn-danger">-</a></th>
+        <th><a href="/admin/new" class="btn btn-success">+</a></th>
+        <th><a href="/admin/profile" class="btn btn-dark">Profile</a></th>
         <th><a href="/logout" class="btn btn-info">Logout</a></th>
       </thead>
       <tbody>
         <% for(var i=0; i<activityList.length; i++) { %>
           <tr>
-            <td><input type="checkbox" name="" id=""> <%= activityList[i].title %></td>
-            <td><a href="/todo/update/<%= activityList[i].id %>" class="btn btn-warning">...</a></td>
+            <td>- <%= activityList[i].email %></td>
+            <td><a href="/admin/update/<%= activityList[i].user_id %>" class="btn btn-warning">...</a></td>
           </tr>    
         <% } %>
       </tbody>

@@ -11,16 +11,22 @@
         <table class="table table-borderless">
             <thead>
                 <th><h1>To-Do List App</h1></th>
-                <th><a href="/todos">Home</a></th>
+                <th><a href="/admin">Home</a></th>
             </thead>
         </table>
-        <h3>Edit Activity</h3>
-        <form action="/todo/update/<%= activityList.id %>" method="POST">
-            <label for="title"><%= activityList.title %> ------></label>
-            <input type="text" value="<%= activityList.title %>" name="title">
+        <h3>Edit User</h3>
+        <form action="/admin/update/<%= activityList.user_id %>" method="POST">
+            <label for="name">Fullname: </label>
+            <input type="text" value="<%= activityList.username %>" name="name">
+            <br>
+            <label for="email">Email: </label>
+            <input type="text" value="<%= activityList.email %>" name="email">
+            <br>
+            <label for="phone">Phone: </label>
+            <input type="text" value="<%= activityList.phone_num %>" name="phone">
             <br>
             <button type="submit">Edit</button>
-            <a href="/todos">Cancel</a>
+            <a href="/admin">Cancel</a>
         </form>
     </div>
 </body>

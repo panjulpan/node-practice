@@ -2,15 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Add</title>
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
-    <h1>To-Do List App</h1>
-    <h3>Add Activity</h3>
-    <form action="/todos/new" method="post">
-        <input type="text" name="title">
-        <button type="submit">Add</button>
-    </form>
-    <a href="/todos">Home</a>
+    <div class="box border">
+        <table>
+            <thead>
+                <th><h1>To-Do List App</h1></th>
+                <th><a href="/todos">Home</a></th>
+            </thead>
+        </table>
+        <h3>Add Activity</h3>
+        <form action="/todos/new" method="post">
+            <input type="text" name="title">
+            <br>
+            <button type="submit">Add</button>
+            <a href="/todos">Cancel</a>
+        </form>
+    </div>
 </body>
 </html>
